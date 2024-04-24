@@ -1,0 +1,233 @@
+@media (max-width: 700px) {
+    #header-img {
+        width: 250px !important;
+    }
+
+    .pricing-option {
+        width: 100% !important;
+    }
+}
+
+@font-face {
+    font-family: 'LuckiestGuyRegular';
+    src: url('controllers4u-luckiest-guy-regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+
+    font-family: 'LuckiestGuyRegular', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F5F5F5;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.nav-link,
+input[type="submit"],
+h1,
+h2,
+h3,
+.price,
+.buy-now-button {
+    font-family: 'LuckiestGuyRegular';
+    font-weight: lighter;
+}
+
+::placeholder {
+    color: #9E1624;
+}
+
+/**************************************************************************/
+
+header {
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #AAABAF;
+
+    padding: 20px;
+    min-width: 650px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-img {
+    width: 100px;
+    height: 50px;
+}
+
+#nav-bar {
+    list-style: none;
+
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.nav-link {
+    color: #9E1624;
+    text-decoration: none;
+
+    padding: 5px;
+}
+
+.nav-link:hover {
+    background-color: #9E1624;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.nav-link:active {
+    background-color: #000000;
+    color: #CCAC3F;
+}
+
+/**************************************************************************/
+
+.hero {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #CCAC3F;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #9E1624;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #CCAC3F;
+    cursor: pointer;
+}
+
+/**************************************************************************/
+
+#about {
+    background-color: #F9F9F9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    color: #666666;
+}
+
+/**************************************************************************/
+
+#products {
+    background-color: #FFFFFF;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#products p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 20px; 
+}
+
+#products h2 {
+    margin-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 30px;
+    
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666666;
+}
+
+/**************************************************************************/
+
+#contact {
+    background-color: #CCAC3F;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #ebe7e7;
+}
+
+/**************************************************************************/
+
+footer {
+    background-color: #FFFFFF;
+    border-top: 2px solid #AAABAF;
+    font-weight: 100;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+
+    bottom: 0;
+    left: 0;
+}
